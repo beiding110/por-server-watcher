@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html, body{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    user-select: none;
+}
+
+.head{
+    display: flex;
+    align-items: center;
+    height: 30px;
+    background: #3b68ff;
+    padding-left: 10px;
+}
+
+.head .logo{
+    display: flex;
+    flex: 1;
+}
+
+.head .logo img{
+    height: 20px;
+}
+
+.head .handler{
+    height: 100%;
+}
+
+.head .handler .btn{
+    display: flex;
+    align-items: center;
+    height: 100%;
+    padding: 0 10px;
+    cursor: pointer;
+}
+
+.head .handler .btn.close:hover{
+    background: red;
+}
+
+.body{
+    flex: 1;
+    justify-content: center;
+    overflow: hidden;
+}

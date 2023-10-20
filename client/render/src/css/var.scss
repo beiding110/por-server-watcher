@@ -1,0 +1,95 @@
+$whiteColor: #FFFFFF;
+
+$primaryColor: #3D7EFF;
+    $primaryColor9: mix($whiteColor, $primaryColor, 10%);
+    $primaryColor8: mix($whiteColor, $primaryColor, 20%);
+    $primaryColor7: mix($whiteColor, $primaryColor, 30%);
+    $primaryColor6: mix($whiteColor, $primaryColor, 40%);
+    $primaryColor5: mix($whiteColor, $primaryColor, 50%);
+    $primaryColor4: mix($whiteColor, $primaryColor, 60%);
+    $primaryColor3: mix($whiteColor, $primaryColor, 70%);
+    $primaryColor2: mix($whiteColor, $primaryColor, 80%);
+    $primaryColor1: mix($whiteColor, $primaryColor, 90%);
+$successColor: #52C41A;
+    $successColor9: mix($whiteColor, $successColor, 10%);
+    $successColor8: mix($whiteColor, $successColor, 20%);
+    $successColor7: mix($whiteColor, $successColor, 30%);
+    $successColor6: mix($whiteColor, $successColor, 40%);
+    $successColor5: mix($whiteColor, $successColor, 50%);
+    $successColor4: mix($whiteColor, $successColor, 60%);
+    $successColor3: mix($whiteColor, $successColor, 70%);
+    $successColor2: mix($whiteColor, $successColor, 80%);
+    $successColor1: mix($whiteColor, $successColor, 90%);
+$warningColor: #FAAD14;
+    $warningColor9: mix($whiteColor, $warningColor, 10%);
+    $warningColor8: mix($whiteColor, $warningColor, 20%);
+    $warningColor7: mix($whiteColor, $warningColor, 30%);
+    $warningColor6: mix($whiteColor, $warningColor, 40%);
+    $warningColor5: mix($whiteColor, $warningColor, 50%);
+    $warningColor4: mix($whiteColor, $warningColor, 60%);
+    $warningColor3: mix($whiteColor, $warningColor, 70%);
+    $warningColor2: mix($whiteColor, $warningColor, 80%);
+    $warningColor1: mix($whiteColor, $warningColor, 90%);
+$dangerColor: #EF4040;
+    $dangerColor9: mix($whiteColor, $dangerColor, 10%);
+    $dangerColor8: mix($whiteColor, $dangerColor, 20%);
+    $dangerColor7: mix($whiteColor, $dangerColor, 30%);
+    $dangerColor6: mix($whiteColor, $dangerColor, 40%);
+    $dangerColor5: mix($whiteColor, $dangerColor, 50%);
+    $dangerColor4: mix($whiteColor, $dangerColor, 60%);
+    $dangerColor3: mix($whiteColor, $dangerColor, 70%);
+    $dangerColor2: mix($whiteColor, $dangerColor, 80%);
+    $dangerColor1: mix($whiteColor, $dangerColor, 90%);
+$infoColor: #909399;
+    $infoColor9: mix($whiteColor, $infoColor, 10%);
+    $infoColor8: mix($whiteColor, $infoColor, 20%);
+    $infoColor7: mix($whiteColor, $infoColor, 30%);
+    $infoColor6: mix($whiteColor, $infoColor, 40%);
+    $infoColor5: mix($whiteColor, $infoColor, 50%);
+    $infoColor4: mix($whiteColor, $infoColor, 60%);
+    $infoColor3: mix($whiteColor, $infoColor, 70%);
+    $infoColor2: mix($whiteColor, $infoColor, 80%);
+    $infoColor1: mix($whiteColor, $infoColor, 90%);
+
+$dominantColor: #e91b2b;
+
+// $navBgColor: #3F3F4B;;
+// $navTextColor: #BFCBD9;
+// $navTextActiveColor: #ffd04b;
+$navBg: rgb(247, 247, 247);
+$navBgColor: #3f3f4b;
+$navTextColor: #111;
+$navTextActiveColor: #000;
+
+:export {
+    primaryColor: $primaryColor;
+    primaryColor9: $primaryColor9;
+    primaryColor8: $primaryColor8;
+    primaryColor7: $primaryColor7;
+    primaryColor6: $primaryColor6;
+    primaryColor5: $primaryColor5;
+    primaryColor4: $primaryColor4;
+    primaryColor3: $primaryColor3;
+    primaryColor2: $primaryColor2;
+    primaryColor1: $primaryColor1;
+
+    successColor: $successColor;
+    successColor9: $successColor9;
+    successColor8: $successColor8;
+
+    warningColor: $warningColor;
+    warningColor9: $warningColor9;
+    warningColor8: $warningColor8;
+
+    dangerColor: $dangerColor;
+    dangerColor9: $dangerColor9;
+    dangerColor8: $dangerColor8;
+
+    infoColor: $infoColor;
+    infoColor9: $infoColor9;
+    infoColor8: $infoColor8;
+
+    navBgColor: $navBgColor;
+    navTextColor: $navTextColor;
+    navTextActiveColor: $navTextActiveColor;
+}

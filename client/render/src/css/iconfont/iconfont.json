@@ -1,0 +1,37 @@
+{
+  "id": "3474685",
+  "name": "electron窗口",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "393482",
+      "name": "最小化",
+      "font_class": "zuixiaohua",
+      "unicode": "e60c",
+      "unicode_decimal": 58892
+    },
+    {
+      "icon_id": "9826649",
+      "name": "关闭",
+      "font_class": "guanbi",
+      "unicode": "e611",
+      "unicode_decimal": 58897
+    },
+    {
+      "icon_id": "12659764",
+      "name": "放大",
+      "font_class": "fangda",
+      "unicode": "e617",
+      "unicode_decimal": 58903
+    },
+    {
+      "icon_id": "20402188",
+      "name": "小窗口",
+      "font_class": "xiaochuangkou",
+      "unicode": "e6f3",
+      "unicode_decimal": 59123
+    }
+  ]
+}
